@@ -50,19 +50,19 @@ hr{
     float:left;
 }
 
-@media screen and (max-width:768px)
+@media screen and (max-width:1020px)
 {
     .workArea{
         height:100%;
     }
 
     .picBlock{
-        position:static;
+        margin-left:10%;
         clear:both;
-        width:90%;
+        width:60%;
     }
-    .picOverlay{
-        margin-left:0;
+    .picOverlay, .pic{
+        margin-left:15;
     }
 
 }
