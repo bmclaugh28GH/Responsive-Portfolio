@@ -5,7 +5,7 @@
 }
 
 .portfolioHdr{
-    margin-left:75px;
+    margin-left:10%;
     color:#4aaaa5;
     font-size:24;
 }
@@ -19,20 +19,21 @@ hr{
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
-    width:83%;
-    margin-left:75px;
+    width:70%;
+    margin-left:10%;
 }
 .picBlock{
     position:relative;  
+    height:40%;
 }
 .pic{
-    height:125px;
+    height:65%;
     width:60%;
     margin-left:40%;
     margin-top:20px;
 }
 .picOverlay{
-    height:55px;
+    height:35%;
     width:60%;
     background-color:#4aaaa5;
     color:white;
@@ -60,6 +61,7 @@ hr{
         margin-left:10%;
         clear:both;
         width:60%;
+        height:18%;
     }
     .picOverlay, .pic{
         margin-left:15;
