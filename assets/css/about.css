@@ -1,7 +1,7 @@
 h1{
     width:90%;
     padding:5px;
-    margin-left:75px;
+    margin-left:10%;
     margin-top:20px;
     color:#4aaaa5;
     background-color: white;
@@ -20,20 +20,22 @@ hr{
     border-style: inset;
     border-width: 1px;
 }
-
+.p_elements{
+    height:100%;
+}
 .myPic{
     float:left;
     padding:5px;
-    margin-left:75px;
+    margin-left:10%;
 }
 p{
-    padding:10px;
-    margin-left:75px;
+    padding:15px;
+    margin-left:10%;
     margin-right:40px;
 }
 .mabelPic{
     float:right;
-    margin-right:40px;
+    margin-right:10%;
 }
 
 @media screen and (max-width:768px)
@@ -49,6 +51,9 @@ p{
     p{
         margin-left:10%;
         margin-right:10%;
+    }
+    .mabelPic{
+        clear:both;
     }
 
 }
